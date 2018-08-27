@@ -1,0 +1,28 @@
+.navbar-main {
+    border-bottom: 2px solid #666666;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    overflow: hidden;
+}
+#navbar-main-brand {
+    background-color: #4aaaa5;
+    color: white;
+    font-family: 'Georgia', 'Times', 'Times New Roman', 'serif';
+    overflow: hidden;
+    font-size: large;
+}
+#navbar-object {
+    height: 66px;
+    overflow: hidden;
+}
+#navbar-container {
+    overflow: hidden;
+}
+#navbar-ul {
+    overflow: hidden;
+    padding-top:10;
+}
+.nav-item a {
+    color: #666666;
+    font-size: smaller;
+}

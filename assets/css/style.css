@@ -1,0 +1,104 @@
+* {
+    font-family: 'Arial', 'Helvetica Neue', 'Helvetica', 'sans-seriff';
+    text-align: left;
+    color: #777777;
+}
+html, body {
+    min-height: 100%;
+    margin: 0;
+    height: 100%;
+    background-image: url('../images/gravel/gravel.png');
+    flex-grow: 1;
+}
+#about-me-container p {
+    line-height: 1.7em;
+}
+#contact-form label {
+    font-weight: bolder;
+}
+.container {
+    margin-top: 25px;
+    padding-bottom: 30px;
+}
+.main-container {
+    background-color: white !important;
+}
+.main-container h3 {
+    border-bottom: 2px solid #666666;
+    color: #4aaaa5;
+} 
+.thumbnail {
+    position: relative;
+    max-width: 100%;
+    max-height: auto;
+}
+.caption {
+    position: absolute;
+    top: 45%;
+    left: 0;
+    width: 100%;
+    height: 20%;
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+    margin-top: 12%;
+}
+.caption a {
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    font-size: small;
+    margin-top: 4%;
+}
+#portfolio-container {
+    padding: 25px;
+}
+.img-col {
+    padding: 15px;
+}
+@media screen and (max-width: 465px) {
+    #navbar-object { height: 117px; }
+    .caption a { font-size: x-small; }
+    
+}
+@media screen and (max-width: 250px) {
+    #navbar-object { height: 136px; }
+    .caption a { font-size: xx-small; }
+}
+.imagebox {
+  background: white;
+  padding: 0px;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+.imagebox img {
+  opacity: 1;
+  transition: 0.5s opacity;
+}
+.imagebox-desc {
+    background-color: white;
+    max-width:
+}
+.imagebox .imagebox-desc {
+  background-color: rgba(0, 0, 0, 0);
+  bottom: 0px;
+  color: white;
+  font-size: 1.2em;
+  left: 0px;
+  padding: 10px 15px;
+  position: absolute;
+  transition: 0.5s padding;
+  text-align: center;
+  width: 100%;
+}
+
+.imagebox:hover img {
+  opacity: 0.7;
+}
+
+.imagebox:hover .imagebox-desc {
+  padding-bottom: 10%;
+}
+
