@@ -65,3 +65,6 @@ html, body {
     #navbar-object { height: 136px; }
     .caption a { font-size: xx-small; }
 }
+.category-banner {
+    width: 100%;
+}
